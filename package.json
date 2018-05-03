@@ -115,7 +115,7 @@
     "font-size-base": "14px"
   },
   "proxy": {
-    "maoyan":"https://box.maoyan.com",
+    "maoyan": "https://box.maoyan.com",
     "mock": "http://localhost:3000"
   },
   "devDependencies": {
