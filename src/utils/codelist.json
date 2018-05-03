@@ -1,0 +1,1317 @@
+[
+  {
+    "id": 1,
+    "name": "商户列表/详情",
+    "code": "FLOW_RETAILER_VIEW_LIST"
+  },
+  {
+    "id": 2,
+    "name": "编辑商户",
+    "code": "FLOW_RETAILER_EDIT"
+  },
+  {
+    "id": 7,
+    "name": "活动列表/详情",
+    "code": "FLOW_RETAILER_ACTIVITY_CROWD_VIEW_LIST"
+  },
+  {
+    "id": 8,
+    "name": "新建活动",
+    "code": "FLOW_RETAILER_ACTIVITY_CROWD_CREATE"
+  },
+  {
+    "id": 9,
+    "name": "删除活动",
+    "code": "FLOW_RETAILER_ACTIVITY_CROWD_DELETE"
+  },
+  {
+    "id": 10,
+    "name": "停用启用活动",
+    "code": "FLOW_RETAILER_ACTIVITY_CROWD_ENABLE_DISABLE"
+  },
+  {
+    "id": 18,
+    "name": "平台列表/详情",
+    "code": "FLOW_OPEN_PLATFORM_APPLY_AUDIT_VIEW_LIST"
+  },
+  {
+    "id": 19,
+    "name": "审核平台",
+    "code": "FLOW_OPEN_PLATFORM_APPLY_AUDIT"
+  },
+  {
+    "id": 20,
+    "name": "平台列表/详情",
+    "code": "FLOW_OPEN_PLATFORM_ORDER_MGMT_VIEW_LIST"
+  },
+  {
+    "id": 21,
+    "name": "EXCEL导出",
+    "code": "FLOW_OPEN_PLATFORM_ORDER_MGMT_EXPORT_EXCEL"
+  },
+  {
+    "id": 22,
+    "name": "商户列表/详情",
+    "code": "FLOW_FN_RETAILER_VIEW_LIST"
+  },
+  {
+    "id": 23,
+    "name": "审核商户",
+    "code": "FLOW_FN_RETAILER_AUDIT"
+  },
+  {
+    "id": 24,
+    "name": "拉黑/解禁商户",
+    "code": "FLOW_FN_RETAILER_ENABLE_DISABLE"
+  },
+  {
+    "id": 25,
+    "name": "数据报表",
+    "code": "FLOW_FN_RETAILER_REPORT"
+  },
+  {
+    "id": 26,
+    "name": "销售单元列表/详情",
+    "code": "FLOW_PRODUCT_SALE_UNIT_VIEW_LIST"
+  },
+  {
+    "id": 27,
+    "name": "新建销售单元",
+    "code": "FLOW_PRODUCT_SALE_UNIT_CREATE"
+  },
+  {
+    "id": 28,
+    "name": "停用启用销售单元",
+    "code": "FLOW_PRODUCT_SALE_UNIT_ENABLE_DISABLE"
+  },
+  {
+    "id": 29,
+    "name": "删除销售单元",
+    "code": "FLOW_PRODUCT_SALE_UNIT_DELETE"
+  },
+  {
+    "id": 40,
+    "name": "运单搜索",
+    "code": "PLAN_SHIPPING_ORDER_SEARCH"
+  },
+  {
+    "id": 43,
+    "name": "查询",
+    "code": "PLAN_DISTR_RETAILER_VIEW_LIST"
+  },
+  {
+    "id": 44,
+    "name": "导出EXCEL",
+    "code": "PLAN_DISTR_EXPORT_EXCEL"
+  },
+  {
+    "id": 45,
+    "name": "加盟商列表详情",
+    "code": "ORGANIZATION_ORG_VIEW_LIST"
+  },
+  {
+    "id": 46,
+    "name": "新增加盟商",
+    "code": "ORGANIZATION_ORG_CREATE"
+  },
+  {
+    "id": 47,
+    "name": "编辑加盟商基本信息",
+    "code": "ORGANIZATION_ORG_EDIT_BASE_INFO"
+  },
+  {
+    "id": 48,
+    "name": "编辑加盟商等级",
+    "code": "ORGANIZATION_ORG_EDIT_LEVEL"
+  },
+  {
+    "id": 49,
+    "name": "编辑加盟商保证金",
+    "code": "ORGANIZATION_ORG_EDIT_DEPOSIT"
+  },
+  {
+    "id": 50,
+    "name": "加盟商确认通过",
+    "code": "ORGANIZATION_ORG_CONFRIM_PASS"
+  },
+  {
+    "id": 51,
+    "name": "财务拒绝加盟商",
+    "code": "ORGANIZATION_ORG_FINANCE_REJECT"
+  },
+  {
+    "id": 52,
+    "name": "停用启用加盟商",
+    "code": "ORGANIZATION_ORG_ENABLE_DISABLE"
+  },
+  {
+    "id": 53,
+    "name": "添加团队",
+    "code": "ORGANIZATION_ORG_TEAM_CREATE"
+  },
+  {
+    "id": 54,
+    "name": "删除团队",
+    "code": "ORGANIZATION_ORG_TEAM_DELETE"
+  },
+  {
+    "id": 55,
+    "name": "活动列表/详情",
+    "code": "ORGANIZATION_ORG_ACTIVITY_VIEW_LIST"
+  },
+  {
+    "id": 56,
+    "name": "新建活动",
+    "code": "ORGANIZATION_ORG_ACTIVITY_CREATE"
+  },
+  {
+    "id": 61,
+    "name": "基础配送费列表",
+    "code": "ORGANIZATION_PRICE_BASE_FEE_VIEW_LIST"
+  },
+  {
+    "id": 62,
+    "name": "编辑基础配送费",
+    "code": "ORGANIZATION_PRICE_BASE_FEE_EDIT"
+  },
+  {
+    "id": 63,
+    "name": "等级补贴列表",
+    "code": "ORGANIZATION_PRICE_LEVEL_SUBSIDY_VIEW_LIST"
+  },
+  {
+    "id": 64,
+    "name": "编辑等级补贴",
+    "code": "ORGANIZATION_PRICE_LEVEL_SUBSIDY_EDIT"
+  },
+  {
+    "id": 65,
+    "name": "城市级别列表",
+    "code": "ORGANIZATION_PRICE_CITY_LEVEL_VIEW_LIST"
+  },
+  {
+    "id": 66,
+    "name": "新增城市级别",
+    "code": "ORGANIZATION_PRICE_CITY_LEVEL_CREATE"
+  },
+  {
+    "id": 67,
+    "name": "编辑城市级别",
+    "code": "ORGANIZATION_PRICE_CITY_LEVEL_EDIT"
+  },
+  {
+    "id": 68,
+    "name": "删除城市级别",
+    "code": "ORGANIZATION_PRICE_CITY_LEVEL_DELETE"
+  },
+  {
+    "id": 69,
+    "name": "指派规则列表",
+    "code": "ORGANIZATION_ASSIGIN_RULE_VIEW_LIST"
+  },
+  {
+    "id": 71,
+    "name": "编辑指派规则",
+    "code": "ORGANIZATION_ASSIGIN_RULE_EDIT"
+  },
+  {
+    "id": 74,
+    "name": "群组列表",
+    "code": "ORGANIZATION_GROUPING_VIEW_LIST"
+  },
+  {
+    "id": 75,
+    "name": "新增群组",
+    "code": "ORGANIZATION_GROUPING_CREATE"
+  },
+  {
+    "id": 76,
+    "name": "删除群组",
+    "code": "ORGANIZATION_GROUPING_DELETE"
+  },
+  {
+    "id": 77,
+    "name": "权限组列表/详情",
+    "code": "PERMISSION_GROUP_MGMT_VIEW_LIST"
+  },
+  {
+    "id": 78,
+    "name": "新增权限组",
+    "code": "PERMISSION_GROUP_MGMT_CREATE"
+  },
+  {
+    "id": 79,
+    "name": "编辑权限组",
+    "code": "PERMISSION_GROUP_MGMT_EDIT"
+  },
+  {
+    "id": 80,
+    "name": "删除权限组",
+    "code": "PERMISSION_GROUP_MGMT_DELETE"
+  },
+  {
+    "id": 81,
+    "name": "用户列表/详情",
+    "code": "PERMISSION_USER_MGMT_VIEW_LIST"
+  },
+  {
+    "id": 82,
+    "name": "编辑用户",
+    "code": "PERMISSION_USER_MGMT_EDIT"
+  },
+  {
+    "id": 83,
+    "name": "用户组列表/详情",
+    "code": "PERMISSION_USER_GROUP_MGMT_VIEW_LIST"
+  },
+  {
+    "id": 84,
+    "name": "新增用户组",
+    "code": "PERMISSION_USER_GROUP_MGMT_CREATE"
+  },
+  {
+    "id": 85,
+    "name": "编辑用户组",
+    "code": "PERMISSION_USER_GROUP_MGMT_EDIT"
+  },
+  {
+    "id": 86,
+    "name": "删除用户组",
+    "code": "PERMISSION_USER_GROUP_MGMT_DELETE"
+  },
+  {
+    "id": 87,
+    "name": "设置",
+    "code": "PLAN_DISTR_SETTING"
+  },
+  {
+    "id": 88,
+    "name": "网格列表/详情",
+    "code": "ORGANIZATION_GRID_VIEW_LIST"
+  },
+  {
+    "id": 89,
+    "name": "新增网格",
+    "code": "ORGANIZATION_GRID_CREATE"
+  },
+  {
+    "id": 90,
+    "name": "编辑网格",
+    "code": "ORGANIZATION_GRID_EDIT"
+  },
+  {
+    "id": 91,
+    "name": "删除网格",
+    "code": "ORGANIZATION_GRID_DELETE"
+  },
+  {
+    "id": 93,
+    "name": "操作",
+    "code": "FLOW_PRODUCT_SIGNED_RETAILER_OPS"
+  },
+  {
+    "id": 94,
+    "name": "打款列表",
+    "code": "ORGANIZATION_PAYING_VIEW_LIST"
+  },
+  {
+    "id": 95,
+    "name": "等级列表",
+    "code": "ORGANIZATION_LEVEL_VIEW_LIST"
+  },
+  {
+    "id": 96,
+    "name": "更改配置",
+    "code": "ORGANIZATION_LEVEL_EDIT"
+  },
+  {
+    "id": 97,
+    "name": "查看",
+    "code": "ORGANIZATION_MATERIALS_MGMT_VIEW_LIST"
+  },
+  {
+    "id": 98,
+    "name": "绘制区域",
+    "code": "PLAN_GRID_OPS"
+  },
+  {
+    "id": 99,
+    "name": "投诉团队列表/详情",
+    "code": "ORGANIZATION_COMPLAINT_MGMT_VIEW_LIST"
+  },
+  {
+    "id": 100,
+    "name": "编辑处理操作",
+    "code": "ORGANIZATION_COMPLAINT_MGMT_EDIT"
+  },
+  {
+    "id": 101,
+    "name": "申诉团队列表/详情",
+    "code": "ORGANIZATION_APPEAL_MGMT_VIEW_LIST"
+  },
+  {
+    "id": 102,
+    "name": "编辑处理操作",
+    "code": "ORGANIZATION_APPEAL_MGMT_EDIT"
+  },
+  {
+    "id": 104,
+    "name": "查看",
+    "code": "FLOW_OPEN_PLATFORM_DT_ORDER_STATS"
+  },
+  {
+    "id": 105,
+    "name": "商户统计",
+    "code": "FLOW_OPEN_PLATFORM_DT_RETAILER_STATS"
+  },
+  {
+    "id": 106,
+    "name": "活动列表",
+    "code": "ORGANIZATION_OPS_ACTIVITY_VIEW_LIST"
+  },
+  {
+    "id": 107,
+    "name": "新建活动",
+    "code": "ORGANIZATION_OPS_ACTIVITY_CREATE"
+  },
+  {
+    "id": 108,
+    "name": "停用/启用活动",
+    "code": "ORGANIZATION_OPS_ACTIVITY_ENABLE_DISABLE"
+  },
+  {
+    "id": 109,
+    "name": "操作",
+    "code": "ORGANIZATION_JOURNAL_OPS"
+  },
+  {
+    "id": 110,
+    "name": "查看",
+    "code": "ORGANIZATION_TEAM_MGMT_BU_VIEW"
+  },
+  {
+    "id": 111,
+    "name": "添加单元",
+    "code": "ORGANIZATION_TEAM_MGMT_BU_CREATE"
+  },
+  {
+    "id": 112,
+    "name": "设置",
+    "code": "ORGANIZATION_TEAM_MGMT_BU_SETTING"
+  },
+  {
+    "id": 113,
+    "name": "查看",
+    "code": "PERMISSION_LOG_VIEW"
+  },
+  {
+    "id": 114,
+    "name": "查看",
+    "code": "PLAN_GRID_APPROVAL_VIEW"
+  },
+  {
+    "id": 115,
+    "name": "审批",
+    "code": "PLAN_GRID_APPROVAL_APPROVE"
+  },
+  {
+    "id": 116,
+    "name": "上传文档检测",
+    "code": "FLOW_OPEN_PLATFORM_YUNLI_COVER_UPLOAD"
+  },
+  {
+    "id": 117,
+    "name": "检查检测结果",
+    "code": "FLOW_OPEN_PLATFORM_YUNLI_COVER_CHECK"
+  },
+  {
+    "id": 119,
+    "name": "查看",
+    "code": "ORGANIZATION_CROWD_APPEAL_MGMT_VIEW"
+  },
+  {
+    "id": 120,
+    "name": "处理",
+    "code": "ORGANIZATION_CROWD_APPEAL_MGMT_EDIT"
+  },
+  {
+    "id": 121,
+    "name": "查看",
+    "code": "PLAN_GRID_MAJOR_ORG_MGMT_VIEW"
+  },
+  {
+    "id": 122,
+    "name": "更改主承运商",
+    "code": "PLAN_GRID_MAJOR_ORG_MGMT_MODIFY"
+  },
+  {
+    "id": 123,
+    "name": "查看",
+    "code": "ORGANIZATION_TEAM_MGMT_YUNLI_UNIT_VIEW"
+  },
+  {
+    "id": 124,
+    "name": "导出EXCEL",
+    "code": "ORGANIZATION_TEAM_MGMT_YUNLI_UNIT_EXPORT_EXCEL"
+  },
+  {
+    "id": 125,
+    "name": "操作",
+    "code": "FLOW_PRODUCT_CITY_LEVEL_OPS"
+  },
+  {
+    "id": 126,
+    "name": "通知中心列表",
+    "code": "FLOW_FN_RETAILER_NC_VIEW"
+  },
+  {
+    "id": 127,
+    "name": "下线通知",
+    "code": "FLOW_FN_RETAILER_NC_OFFLINE"
+  },
+  {
+    "id": 128,
+    "name": "新建通知",
+    "code": "FLOW_FN_RETAILER_NC_CREATE"
+  },
+  {
+    "id": 129,
+    "name": "订单查询列表页",
+    "code": "FLOW_FN_RETAILER_ORDER_VIEW"
+  },
+  {
+    "id": 130,
+    "name": "导出",
+    "code": "FLOW_FN_RETAILER_ORDER_EXPORT"
+  },
+  {
+    "id": 131,
+    "name": "充值查询列表页",
+    "code": "FLOW_FN_RETAILER_PREPAID_VIEW"
+  },
+  {
+    "id": 132,
+    "name": "导出",
+    "code": "FLOW_FN_RETAILER_PREPAID_EXPORT"
+  },
+  {
+    "id": 133,
+    "name": "数据统计-转化漏斗页",
+    "code": "FLOW_FN_RETAILER_FUNNEL_STATS"
+  },
+  {
+    "id": 134,
+    "name": "数据统计-单量统计页",
+    "code": "FLOW_FN_RETAILER_ORDER_STATS"
+  },
+  {
+    "id": 135,
+    "name": "导出",
+    "code": "FLOW_FN_RETAILER_ORDER_STATS_EXPORT"
+  },
+  {
+    "id": 136,
+    "name": "数据统计-充值统计页",
+    "code": "FLOW_FN_RETAILER_PREPAID_STATS"
+  },
+  {
+    "id": 137,
+    "name": "导出",
+    "code": "FLOW_FN_RETAILER_PREPAID_STATS_EXPORT"
+  },
+  {
+    "id": 138,
+    "name": "数据统计-消费统计页",
+    "code": "FLOW_FN_RETAILER_CONSUME_STATS"
+  },
+  {
+    "id": 139,
+    "name": "导出",
+    "code": "FLOW_FN_RETAILER_CONSUME_STATS_EXPORT"
+  },
+  {
+    "id": 140,
+    "name": "数据统计-新增统计页",
+    "code": "FLOW_FN_RETAILER_NEW_STATS"
+  },
+  {
+    "id": 141,
+    "name": "导出",
+    "code": "FLOW_FN_RETAILER_NEW_STATS_EXPORT"
+  },
+  {
+    "id": 143,
+    "name": "监控状态",
+    "code": "FLOW_OPEN_PLATFORM_DT_ORDER_STATS_MONITOR_STATUS"
+  },
+  {
+    "id": 144,
+    "name": "停用/启用",
+    "code": "FLOW_OPEN_PLATFORM_DT_ORDER_STATS_ENABLE_DISABLE"
+  },
+  {
+    "id": 149,
+    "name": "主承运商灰度设置Tab",
+    "code": "PLAN_GRID_GRAY_SETTING_MAJOR_ORG_TAB"
+  },
+  {
+    "id": 150,
+    "name": "快送标品灰度设置Tab",
+    "code": "PLAN_GRID_GRAY_SETTING_KUAISONG_TAB"
+  },
+  {
+    "id": 151,
+    "name": "点我达选推灰度设置Tab",
+    "code": "PLAN_GRID_GRAY_SETTING_DWD_TAB"
+  },
+  {
+    "id": 152,
+    "name": "操作",
+    "code": "ORGANIZATION_CROWD_USER_MGMT_OPS"
+  },
+  {
+    "id": 153,
+    "name": "查看",
+    "code": "ORGANIZATION_CROWD_NOTIFICATION_CENTER_VIEW"
+  },
+  {
+    "id": 154,
+    "name": "创建新消息",
+    "code": "ORGANIZATION_CROWD_NOTIFICATION_CENTER_CREATE"
+  },
+  {
+    "id": 155,
+    "name": "停用",
+    "code": "ORGANIZATION_CROWD_NOTIFICATION_CENTER_STOP"
+  },
+  {
+    "id": 156,
+    "name": "查看",
+    "code": "ORGANIZATION_CROWD_NOTIFICATION_CENTER_GRID_PRICE_VIEW"
+  },
+  {
+    "id": 157,
+    "name": "改价",
+    "code": "ORGANIZATION_CROWD_NOTIFICATION_CENTER_GRID_PRICE_MODIFY"
+  },
+  {
+    "id": 158,
+    "name": "批量处罚",
+    "code": "ORGANIZATION_CROWD_USER_CREATE_GRAY"
+  },
+  {
+    "id": 159,
+    "name": "提现查询列表",
+    "code": "FLOW_FN_RETAILER_WITHDRAW_VIEW_LIST"
+  },
+  {
+    "id": 160,
+    "name": "申请提现",
+    "code": "FLOW_FN_RETAILER_APPLY_WITHDRAW"
+  },
+  {
+    "id": 161,
+    "name": "撤回提现",
+    "code": "FLOW_FN_RETAILER_RECALL_WITHDRAW"
+  },
+  {
+    "id": 162,
+    "name": "访问",
+    "code": "ORGANIZATION_CROWD_BASE_PRICE_VIEW"
+  },
+  {
+    "id": 163,
+    "name": "城市定价",
+    "code": "ORGANIZATION_CROWD_BASE_PRICE_CITY"
+  },
+  {
+    "id": 164,
+    "name": "批量定价",
+    "code": "ORGANIZATION_CROWD_BASE_PRICE_BATCH"
+  },
+  {
+    "id": 165,
+    "name": "删除",
+    "code": "ORGANIZATION_CROWD_BASE_PRICE_DELETE"
+  },
+  {
+    "id": 166,
+    "name": "批量绑定主承运商",
+    "code": "PLAN_GRID_MAJOR_ORG_MGMT_BATCH_MODIFY"
+  },
+  {
+    "id": 167,
+    "name": "查看",
+    "code": "ORGANIZATION_CARRIER_INFO_CENTER_VIEW"
+  },
+  {
+    "id": 168,
+    "name": "查看",
+    "code": "FLOW_PRODUCT_CITY_LEVEL_VIEW"
+  },
+  {
+    "id": 169,
+    "name": "查询",
+    "code": "FLOW_FN_RETAILER_AUDIT_RETAILER_VIEW_LIST"
+  },
+  {
+    "id": 170,
+    "name": "审核",
+    "code": "FLOW_FN_RETAILER_AUDIT_RETAILER_VERIFY"
+  },
+  {
+    "id": 171,
+    "name": "查询",
+    "code": "ORGANIZATION_CROWD_POLLING_PRICE_VIEW"
+  },
+  {
+    "id": 172,
+    "name": "创建",
+    "code": "ORGANIZATION_CROWD_POLLING_PRICE_CREATE"
+  },
+  {
+    "id": 173,
+    "name": "停用",
+    "code": "ORGANIZATION_CROWD_POLLING_PRICE_STOP"
+  },
+  {
+    "id": 174,
+    "name": "驿站信息",
+    "code": "FLOW_LUODIPEI_COURIER_STATION_INFO"
+  },
+  {
+    "id": 175,
+    "name": "运单数据",
+    "code": "FLOW_LUODIPEI_SHIPPING_ORDER_INFO"
+  },
+  {
+    "id": 176,
+    "name": "查看",
+    "code": "FLOW_PRODUCT_GRID_SHELF_MGMT_VIEW"
+  },
+  {
+    "id": 177,
+    "name": "查看",
+    "code": "PLAN_AI_SCHEDULE_GRAY_SETTING_VIEW"
+  },
+  {
+    "id": 178,
+    "name": "编辑",
+    "code": "PLAN_GRID_EDIT"
+  },
+  {
+    "id": 179,
+    "name": "删除",
+    "code": "PLAN_GRID_DELETE"
+  },
+  {
+    "id": 180,
+    "name": "申请/撤销绑定",
+    "code": "PLAN_GRID_APPLY_UNBIND"
+  },
+  {
+    "id": 181,
+    "name": "信用分批量加分",
+    "code": "ORGANIZATION_CROWD_CREDIT_POINT_BATCH_ADD"
+  },
+  {
+    "id": 182,
+    "name": "信用分异常处理",
+    "code": "ORGANIZATION_CROWD_CREDIT_POINT_HANDLE_EXCEPTION"
+  },
+  {
+    "id": 183,
+    "name": "已上传文件",
+    "code": "ORGANIZATION_CROWD_CREDIT_POINT_UPLOADED_FILE"
+  },
+  {
+    "id": 184,
+    "name": "查询",
+    "code": "PLAN_GRID_VIEW"
+  },
+  {
+    "id": 185,
+    "name": "编辑公司信息",
+    "code": "ORGANIZATION_ORG_EDIT_COMPANY_INFO"
+  },
+  {
+    "id": 186,
+    "name": "批量网格化改价TAB",
+    "code": "ORGANIZATION_CROWD_GRID_PRICE_BATCH_EDIT_TAB"
+  },
+  {
+    "id": 187,
+    "name": "网格改价纪录TAB",
+    "code": "ORGANIZATION_CROWD_GRID_PRICE_MODIFY_HISTORY_TAB"
+  },
+  {
+    "id": 188,
+    "name": "停用",
+    "code": "ORGANIZATION_CROWD_GRID_PRICE_STOP"
+  },
+  {
+    "id": 189,
+    "name": "绑定",
+    "code": "PLAN_GRID_BIND"
+  },
+  {
+    "id": 192,
+    "name": "配置城市",
+    "code": "FLOW_OPEN_PLATFORM_CONFIGURE_CITIES"
+  },
+  {
+    "id": 193,
+    "name": "商户下线",
+    "code": "FLOW_OPEN_PLATFORM_RETAILER_OFFLINE"
+  },
+  {
+    "id": 194,
+    "name": "导航栏",
+    "code": "FLOW_OPEN_PLATFORM_NAVIGATION_BAR"
+  },
+  {
+    "id": 195,
+    "name": "查看",
+    "code": "ORGANIZATION_CROWD_MATERIALS_AUDIT_VIEW"
+  },
+  {
+    "id": 196,
+    "name": "审核",
+    "code": "ORGANIZATION_CROWD_MATERIALS_AUDIT_AUDIT"
+  },
+  {
+    "id": 197,
+    "name": "查看",
+    "code": "ORGANIZATION_CROWD_RAIN_SNOW_DAY_PRICE_VIEW"
+  },
+  {
+    "id": 198,
+    "name": "创建",
+    "code": "ORGANIZATION_CROWD_RAIN_SNOW_DAY_PRICE_CREATE"
+  },
+  {
+    "id": 199,
+    "name": "查看",
+    "code": "PRESSURE_BALANCE_ADJUST_MGMT_VIEW"
+  },
+  {
+    "id": 200,
+    "name": "操作",
+    "code": "PRESSURE_BALANCE_ADJUST_MGMT_OPS"
+  },
+  {
+    "id": 201,
+    "name": "手机号码修改",
+    "code": "ORGANIZATION_CROWD_USER_MODIFY_PHONE"
+  },
+  {
+    "id": 202,
+    "name": "骑手身份修改",
+    "code": "ORGANIZATION_CROWD_USER_MODIFY_CARRIER_IDENTITY"
+  },
+  {
+    "id": 203,
+    "name": "查看账单",
+    "code": "FLOW_OPEN_PLATFORM_VIEW_PAYBILL"
+  },
+  {
+    "id": 204,
+    "name": "配置收费规则",
+    "code": "FLOW_OPEN_PLATFORM_CHARGE_RULE_CONFIGURATION"
+  },
+  {
+    "id": 205,
+    "name": "新增规则",
+    "code": "FLOW_OPEN_PLATFORM_CHARGE_RULE_MGMT_CREATE"
+  },
+  {
+    "id": 206,
+    "name": "编辑规则",
+    "code": "FLOW_OPEN_PLATFORM_CHARGE_RULE_MGMT_EDIT"
+  },
+  {
+    "id": 207,
+    "name": "删除规则",
+    "code": "FLOW_OPEN_PLATFORM_CHARGE_RULE_MGMT_DELETE"
+  },
+  {
+    "id": 208,
+    "name": "初审审核",
+    "code": "ORGANIZATION_CARRIER_QC_MGMT_FIRST_REVIEW"
+  },
+  {
+    "id": 209,
+    "name": "复审审核",
+    "code": "ORGANIZATION_CARRIER_QC_MGMT_SECOND_REVIEW"
+  },
+  {
+    "id": 210,
+    "name": "查看详情",
+    "code": "ORGANIZATION_CARRIER_QC_MGMT_VIEW_DETAIL"
+  },
+  {
+    "id": 211,
+    "name": "T向量选择规则",
+    "code": "ORGANIZATION_TMODEL_SETTING_VECTOR_CONFIGURATION"
+  },
+  {
+    "id": 212,
+    "name": "实时调控",
+    "code": "ORGANIZATION_TMODEL_SETTING_BUFFER_CONFIGURATION"
+  },
+  {
+    "id": 213,
+    "name": "T输出奖惩骑手",
+    "code": "ORGANIZATION_TMODEL_SETTING_SPLIT_CONFIGURATION"
+  },
+  {
+    "id": 214,
+    "name": "查看",
+    "code": "FLOW_ARRIVE_RANGE_AUDIT_VIEW"
+  },
+  {
+    "id": 215,
+    "name": "审核",
+    "code": "FLOW_ARRIVE_RANGE_AUDIT_AUDIT"
+  },
+  {
+    "id": 216,
+    "name": "审核规则编辑",
+    "code": "FLOW_ARRIVE_RANGE_AUDIT_RULE_EDIT"
+  },
+  {
+    "id": 217,
+    "name": "切换时效",
+    "code": "FLOW_OPEN_PLATFORM_SWITCH_TIME"
+  },
+  {
+    "id": 218,
+    "name": "小组管理查询/修改",
+    "code": "ORGANIZATION_SERVICE_QUALITY_ORDER_USER_GROUP_MGMT_VIEW_EDIT"
+  },
+  {
+    "id": 219,
+    "name": "活动模版",
+    "code": "ORGANIZATION_CROWD_OPS_ACTIVITY_TEMPLATE"
+  },
+  {
+    "id": 220,
+    "name": "活动模版-创建",
+    "code": "ORGANIZATION_CROWD_OPS_ACTIVITY_TEMPLATE_CREATE"
+  },
+  {
+    "id": 221,
+    "name": "活动模版－停用/修改",
+    "code": "ORGANIZATION_CROWD_OPS_ACTIVITY_TEMPLATE_DISABLE_MODIFY"
+  },
+  {
+    "id": 222,
+    "name": "访问",
+    "code": "ORGANIZATION_CROWD_INVITATION_ACTIVITY_VISIT"
+  },
+  {
+    "id": 223,
+    "name": "配置",
+    "code": "ORGANIZATION_CROWD_INVITATION_ACTIVITY_CONFIGURATION"
+  },
+  {
+    "id": 224,
+    "name": "数据查看",
+    "code": "PLAN_DATA_MONITOR_VIEW_DATA"
+  },
+  {
+    "id": 225,
+    "name": "预警规则页面配置",
+    "code": "PLAN_DATA_MONITOR_ALARM_RULE_CONFIGURATION"
+  },
+  {
+    "id": 227,
+    "name": "查看",
+    "code": "ORGANIZATION_CROWD_AUDIT_VIEW"
+  },
+  {
+    "id": 228,
+    "name": "销售单元编辑",
+    "code": "FLOW_PRODUCT_SALE_UNIT_EDIT"
+  },
+  {
+    "id": 233,
+    "name": "修改",
+    "code": "FLOW_PRODUCT_PRICE_AUDIT_EDIT"
+  },
+  {
+    "id": 237,
+    "name": "查询",
+    "code": "FLOW_ARRIVE_RANGE_VIEW"
+  },
+  {
+    "id": 238,
+    "name": "编辑",
+    "code": "FLOW_ARRIVE_RANGE_EDIT"
+  },
+  {
+    "id": 241,
+    "name": "审核",
+    "code": "FLOW_PRODUCT_PRICE_AUDIT_AUDIT"
+  },
+  {
+    "id": 249,
+    "name": "新建活动",
+    "code": "FLOW_FN_ACTIVITY_CREATE"
+  },
+  {
+    "id": 257,
+    "name": "下线活动",
+    "code": "FLOW_FN_ACTIVITY_REMOVE"
+  },
+  {
+    "id": 265,
+    "name": "查看权限",
+    "code": "FLOW_FN_ACTIVITY_AUTH_VIEW"
+  },
+  {
+    "id": 273,
+    "name": "查询商户门店管理",
+    "code": "FLOW_OPEN_PLATFORM_SHOP_MGMT_VIEW"
+  },
+  {
+    "id": 400176,
+    "name": "查看",
+    "code": "FLOW_PRODUCT_PRICE_AUDIT_VIEW_LIST"
+  },
+  {
+    "id": 400184,
+    "name": "查询",
+    "code": "LIMITED_FLOW_APPLY_AND_FEEDBACK_VIEW"
+  },
+  {
+    "id": 400185,
+    "name": "操作",
+    "code": "LIMITED_FLOW_APPLY_AND_FEEDBACK_OPERATION"
+  },
+  {
+    "id": 400186,
+    "name": "查询",
+    "code": "CONTROL_CENTER_VIEW"
+  },
+  {
+    "id": 400187,
+    "name": "操作",
+    "code": "CONTROL_CENTER_OPERATION"
+  },
+  {
+    "id": 400188,
+    "name": "查看",
+    "code": "FLOW_OPEN_PLATFORM_DT_OVERVIEW_VIEW"
+  },
+  {
+    "id": 400189,
+    "name": "应急措施开关",
+    "code": "FLOW_OPEN_PLATFORM_DT_OVERVIEW_SWITCH"
+  },
+  {
+    "id": 400190,
+    "name": "数据查看",
+    "code": "DATA_STATISTICS_VIEW"
+  },
+  {
+    "id": 400191,
+    "name": "数据导出",
+    "code": "DATA_STATISTICS_EXPORT"
+  },
+  {
+    "id": 400192,
+    "name": "查询",
+    "code": "DECISION_RULE_VIEW"
+  },
+  {
+    "id": 400193,
+    "name": "操作",
+    "code": "DECISION_RULE_OPERATION"
+  },
+  {
+    "id": 400194,
+    "name": "查询",
+    "code": "REWARD_AND_PUNISHMENT_RULE_VIEW"
+  },
+  {
+    "id": 400195,
+    "name": "操作",
+    "code": "REWARD_AND_PUNISHMENT_RULE_OPERATION"
+  },
+  {
+    "id": 400196,
+    "name": "查询",
+    "code": "PAYMENT_RULE_VIEW"
+  },
+  {
+    "id": 400197,
+    "name": "操作",
+    "code": "PAYMENT_RULE_OPERATION"
+  },
+  {
+    "id": 400198,
+    "name": "查看",
+    "code": "REGULATION_AND_MONITORING_PROXY_VIEW"
+  },
+  {
+    "id": 400199,
+    "name": "操作",
+    "code": "REGULATION_AND_MONITORING_PROXY_OPERATION"
+  },
+  {
+    "id": 400200,
+    "name": "批量处罚",
+    "code": "ORGANIZATION_CARRIER_INFO_CENTER_BATCH_PUNISH"
+  },
+  {
+    "id": 400201,
+    "name": "查看",
+    "code": "AUTOMATIC_RULE_CHECK"
+  },
+  {
+    "id": 400202,
+    "name": "操作",
+    "code": "AUTOMATIC_RULE_OPERATION"
+  },
+  {
+    "id": 400203,
+    "name": "查看",
+    "code": "FENGSHEN_CONFIG_VIEW"
+  },
+  {
+    "id": 400204,
+    "name": "操作",
+    "code": "FENGSHEN_CONFIG_OPERATION"
+  },
+  {
+    "id": 400205,
+    "name": "查看",
+    "code": "FENGSHEN_REGISTER_VIEW"
+  },
+  {
+    "id": 400206,
+    "name": "操作",
+    "code": "FENGSHEN_REGISTER_OPERATION"
+  },
+  {
+    "id": 400207,
+    "name": "查看",
+    "code": "LIFETIME_SETTLE_REVIEW_VEIW"
+  },
+  {
+    "id": 400208,
+    "name": "操作",
+    "code": "LIFETIME_SETTLE_REVIEW_OPERATION"
+  },
+  {
+    "id": 400209,
+    "name": "查看",
+    "code": "LIFETIME_ENABLE_VIEW"
+  },
+  {
+    "id": 400210,
+    "name": "后勤审批",
+    "code": "LIFETIME_ENABLE_LOGISTICS_REVIEW"
+  },
+  {
+    "id": 400211,
+    "name": "后勤核算",
+    "code": "LIFETIME_ENABLE_LOGISTICS_ACCOUNTING"
+  },
+  {
+    "id": 400212,
+    "name": "财务审批",
+    "code": "LIFETIME_ENABLE_FINANCE_REVIEW"
+  },
+  {
+    "id": 400213,
+    "name": "查看",
+    "code": "ORGANIZATION_CARRIER_ACTIVITY_VIEW"
+  },
+  {
+    "id": 400214,
+    "name": "创建",
+    "code": "ORGANIZATION_CARRIER_ACTIVITY_CREATE"
+  },
+  {
+    "id": 400215,
+    "name": "停用",
+    "code": "ORGANIZATION_CARRIER_ACTIVITY_STOP"
+  },
+  {
+    "id": 400216,
+    "name": "删除",
+    "code": "ORGANIZATION_CARRIER_ACTIVITY_DELETE"
+  },
+  {
+    "id": 400217,
+    "name": "查看",
+    "code": "ORGANIZATION_CARRIER_CIRCLE_GROUP_VIEW"
+  },
+  {
+    "id": 400218,
+    "name": "创建",
+    "code": "ORGANIZATION_CARRIER_CIRCLE_GROUP_CREATE"
+  },
+  {
+    "id": 400219,
+    "name": "删除",
+    "code": "ORGANIZATION_CARRIER_CIRCLE_GROUP_DELETE"
+  },
+  {
+    "id": 400220,
+    "name": "菜单可见",
+    "code": "CONTROL_CENTER_PRIMARY_REVIEW_MENU"
+  },
+  {
+    "id": 400221,
+    "name": "详情可见",
+    "code": "CONTROL_CENTER_PRIMARY_REVIEW_INFO"
+  },
+  {
+    "id": 400222,
+    "name": "操作审核",
+    "code": "CONTROL_CENTER_PRIMARY_REVIEW_OPERATION"
+  },
+  {
+    "id": 400223,
+    "name": "改派率查看",
+    "code": "BOD_SITE_REFORM_RATE_VIEW"
+  },
+  {
+    "id": 400224,
+    "name": "更改改派率",
+    "code": "BOD_SITE_REFORM_RATE_EDIT"
+  },
+  {
+    "id": 400225,
+    "name": "查看",
+    "code": "FLOW_PRODUCT_PRICE_VIEW"
+  },
+  {
+    "id": 400226,
+    "name": "编辑",
+    "code": "FLOW_PRODUCT_PRICE_EDIT"
+  },
+  {
+    "id": 400227,
+    "name": "删除",
+    "code": "FLOW_PRODUCT_PRICE_DELETE"
+  },
+  {
+    "id": 400228,
+    "name": "查看",
+    "code": "AGENCY_ACCOUNT_INFO_VIEW"
+  },
+  {
+    "id": 400229,
+    "name": "详情页编辑",
+    "code": "AGENCY_ACCOUNT_DETAIL_EDIT"
+  },
+  {
+    "id": 400230,
+    "name": "查看规则",
+    "code": "PLAN_DISTR_RULE_VIEW"
+  },
+  {
+    "id": 400231,
+    "name": "增删改规则",
+    "code": "PLAN_DISTR_RULE_EDIT"
+  },
+  {
+    "id": 400232,
+    "name": "查看站点组",
+    "code": "SITE_GROUP_VIEW"
+  },
+  {
+    "id": 400233,
+    "name": "增删改站点组",
+    "code": "SITE_GROUP_EDIT"
+  },
+  {
+    "id": 400234,
+    "name": "查看",
+    "code": "CITY_AGENCY_DIRECT_AREA_MAINTANANCE_VIEW"
+  },
+  {
+    "id": 400235,
+    "name": "查看",
+    "code": "AGENCY_KPI_VIEW"
+  },
+  {
+    "id": 400236,
+    "name": "查看菜单",
+    "code": "PRESSURE_BALANCE_AREA_GROUP_MENU_VIEW"
+  },
+  {
+    "id": 400237,
+    "name": "查看详情",
+    "code": "PRESSURE_BALANCE_AREA_GROUP_INFO_VIEW"
+  },
+  {
+    "id": 400238,
+    "name": "操作编辑",
+    "code": "PRESSURE_BALANCE_AREA_GROUP_EDIT"
+  },
+  {
+    "id": 400239,
+    "name": "操作创建",
+    "code": "PRESSURE_BALANCE_AREA_GROUP_CREATE"
+  },
+  {
+    "id": 400240,
+    "name": "查看菜单",
+    "code": "PRESSURE_BALANCE_RULE_MENU_VIEW"
+  },
+  {
+    "id": 400241,
+    "name": "查看详情",
+    "code": "PRESSURE_BALANCE_RULE_INFO_VIEW"
+  },
+  {
+    "id": 400242,
+    "name": "操作编辑",
+    "code": "PRESSURE_BALANCE_RULE_EDIT"
+  },
+  {
+    "id": 400243,
+    "name": "操作创建",
+    "code": "PRESSURE_BALANCE_RULE_CREATE"
+  },
+  {
+    "id": 400244,
+    "name": "查看菜单",
+    "code": "PLAN_DATA_MONITOR_CONFIG_MENU_VIEW"
+  },
+  {
+    "id": 400245,
+    "name": "查看详情",
+    "code": "PLAN_DATA_MONITOR_CONFIG_INFO_VIEW"
+  },
+  {
+    "id": 400246,
+    "name": "操作编辑",
+    "code": "PLAN_DATA_MONITOR_CONFIG_OPR_EDIT"
+  },
+  {
+    "id": 400247,
+    "name": "同区域创建",
+    "code": "PLAN_DATA_MONITOR_CONFIG_SAME_AREA_CREATE"
+  },
+  {
+    "id": 400248,
+    "name": "操作创建",
+    "code": "PLAN_DATA_MONITOR_CONFIG_OPR_CREATE"
+  },
+  {
+    "id": 400249,
+    "name": "停用",
+    "code": "PLAN_DATA_MONITOR_CONFIG_STOP"
+  },
+  {
+    "id": 400250,
+    "name": "查看",
+    "code": "AGENCY_PRODUCT_DISTRIBUTION_VIEW"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "/talaris-kerrigan/order/*": "/$1",
+  "/elezhongbao/audit/price/*": "/$1",
+  "/audit/couriergroup/*": "/$1",
+  "/minos-webapi/*": "/$1",
+  "/:resource/:id/show": "/:resource/:id",
+  "/posts/:category": "/posts?category=:category",
+  "/articles\\?id=:id": "/posts/:id",
+  "/elezhongbao/audit/training/*": "/$1",
+  "/elezhongbao/audit/order/*": "/$1",
+  "/elezhongbao/audit/activity/*": "/$1",
+  "/elezhongbao/autodisp/*": "/$1"
+}
