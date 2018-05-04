@@ -3,8 +3,8 @@ import { connect } from 'react-redux';
 import { Table, Button } from 'antd';
 import { region_type } from './constant';
 import * as actions from './actions';
-import Toolbar from './modules/Toolbar';
-import MaoyanTable from './modules/MaoyanTable';
+import Toolbar from './Modules/Toolbar';
+import MaoyanTable from './Modules/MaoyanTable';
 import './index.less'
 
 class Maoyan extends Component {
@@ -12,11 +12,14 @@ class Maoyan extends Component {
   }
   render() {
     const { table: {data, total, loading }} = this.props.maoyan.toJS();
-    const {changeTable}=this.props;
+    const {changeTable,changeLoading}=this.props;
+    console.log(data,loading,'loading')
     return (
       <div className="maoyan">
         <Toolbar 
             changeTable={changeTable}
+            changeLoading={changeLoading}
+            loading={loading}
         />
         <MaoyanTable 
             config={data}

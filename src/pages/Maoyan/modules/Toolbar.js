@@ -9,6 +9,7 @@ import {
     Col,
     Row,
     DatePicker,
+    Radio,
     message
 } from 'antd';
 import moment from 'moment';
@@ -18,6 +19,9 @@ import {region_type, getTableList} from '../constant';
 
 const FormItem = Form.Item;
 const Option = Select.Option;
+const { MonthPicker, RangePicker } = DatePicker;
+const RadioGroup = Radio.Group;
+
 const formItemLayout = {
     labelCol: {
         span: 8
@@ -51,42 +55,68 @@ const mapDispatchToProps = dispatch => {
 }
 @Form.create()
 class Toolbar extends Component {
+    //TODO:月票房搜索
     state = {
-        timeString:moment().format('YYYYMMDD')
+        timeString:moment().format('YYYYMMDD'),
+        monthString:moment().format('YYYYMM'),
+        selectMonth:0,
+        radioValue:0
     };
     componentDidMount() {
         this.fetchTableData();
     }
-    onChange = (date, dateString) => {
-        console.log(date, dateString);
+    onChange = (e) => {
+        console.log('radio checked', e.target.value);
         this.setState({
-            timeString:dateString
+            radioValue: e.target.value,
+        });
+      }
+    onDateChange = (date, dateString) => {
+        this.setState({
+            timeString:dateString,
+            selectMonth:0
         })
 
     }
+    onMonthChange=(date, dateString)=>{
+        console.log(date, dateString);
+        this.setState({
+            monthString:dateString,
+            selectMonth:1
+        })       
+    }
+
+    disabledDate=(current)=> {
+        // Can not select days after today and today
+        return current && current > moment().endOf('day');
+      }
+      
 
     handleSearch = (e) => {
+        const {changeLoading} = this.props;
         e.preventDefault();
+        changeLoading(true)
         this.fetchTableData();
     }
 
     fetchTableData = () => {
-        const {changeTable} = this.props;
-        const {timeString}= this.state;
-        
+        const {changeTable,changeLoading} = this.props;
+        const {timeString,monthString,selectMonth,radioValue}= this.state;
+        console.log(monthString,'====monthString',selectMonth,'==selectMonth',radioValue,'radioValue')
+        let monthQueryString= moment(monthString).format('YYYYMMDD')
+        let timeQueryString =moment(timeString).format('YYYYMMDD')
         this.props.form.validateFields((err, values) => {
-            // console.log(timeString,'timeString')
-            
             const paramsObj = Object.assign({}, {
                 cityTier: values.cityTier?values.cityTier:0,
-                typeId: 0,
-                date: moment(timeString).format('YYYYMMDD'),
+                typeId: radioValue&&radioValue==1?2:0,
+                date: radioValue&&radioValue==1?monthQueryString:timeQueryString,
                 cityId: 0
             },solidSearch);
             console.log(paramsObj,'paramsObj')
             getFetch(getTableList, paramsObj).then((data) => {
             if (data.data.success && data.data.success === false) return
             changeTable(data.data.data, false)
+            changeLoading(false);
         });
     });
     }
@@ -99,10 +129,11 @@ class Toolbar extends Component {
 
     render() {
         const {getFieldDecorator} = this.props.form;
-        const {timeString}= this.state;
+        const {loading} = this.props;
+        const {timeString,radioValue}= this.state;
         const dateFormat = 'YYYY-MM-DD';
+        console.log(radioValue,'===radioValue')
         return (
-
             <div className="maoyan-toolbar">
                 <Form onSubmit={this.handleSearch} layout="inline">
                     <Row>
@@ -118,14 +149,34 @@ class Toolbar extends Component {
                             {getFieldDecorator('date', {initialValue:moment(timeString, dateFormat),required:true })(
                                 <DatePicker
                                 format={dateFormat}
-                                onChange={this.onChange}/>
+                                disabled={radioValue===1}
+                                onChange={this.onDateChange}/>
                             )}
                         </FormItem>
+                        <FormItem {...formItemLayout} label="月份">
+                            {getFieldDecorator('month', {initialValue:null,required:true })(
+                                <MonthPicker 
+                                    disabledDate={this.disabledDate} 
+                                    placeholder="请选择月份" 
+                                    disabled={radioValue===0}
+                                    onChange={this.onMonthChange}/>
+                            )}
+                        </FormItem>
+                        <FormItem {...formItemLayout} label="">
+                            {getFieldDecorator('check', {initialValue:0,required:true })(
+                                <RadioGroup onChange={this.onChange} value={this.state.radioValue}>
+                                   <Radio value={0}>按日期搜索</Radio>
+                                   <Radio value={1}>按月份搜索</Radio>
+                                </RadioGroup>
+                            )}
+                        </FormItem>
+
                         <Button
                             type="primary"
                             htmlType="submit"
                             style={{marginLeft: 10}}
                             onClick={this.handleSearch}
+                            loading={loading}
                             >
                             搜索
                             </Button>

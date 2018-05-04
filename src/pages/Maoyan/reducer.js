@@ -6,9 +6,7 @@ const initialState = I.fromJS({
     },
     table: {
         data: [],
-        loading: false,
-        total: 0,
-        page: 1
+        loading: true,
     }
 });
 
